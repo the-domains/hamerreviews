@@ -1,6 +1,6 @@
 name: HamerReviews
 favicon: null
-layout_spectrum: 0.7065767
+layout_spectrum: 0.84901
 typography_spectrum: 0.15141
 cta:
   domain: null
@@ -23,6 +23,6 @@ color:
     - '#F4F482'
   brandStrength: 0.25
   lightness: 0.0625
-  saturation: 0
-  rhythmicContrast: 0.25
+  saturation: 0.0625
+  rhythmicContrast: 0
 purpose: []
