@@ -1,7 +1,7 @@
 name: HamerReviews
 favicon: null
 layout_spectrum: 0.84901
-typography_spectrum: 0.15141
+typography_spectrum: 0.18279
 title: Hamer Reviews
 cta:
   domain: null
@@ -17,13 +17,13 @@ opengraph:
   appId: null
 color:
   brandColors:
-    - '#F7EDF0'
-    - '#F4CBC6'
-    - '#F4AFAB'
-    - '#F4EEA9'
-    - '#F4F482'
-  brandStrength: 0.25
-  lightness: 0.0625
-  saturation: 0.0625
-  rhythmicContrast: 0
+    - '#010101'
+    - '#8780aa'
+    - '#ff8137'
+    - '#73607e'
+    - '#a2425e'
+  brandStrength: 0.5
+  lightness: 0.1875
+  saturation: 0.125
+  rhythmicContrast: 0.5
 purpose: []
