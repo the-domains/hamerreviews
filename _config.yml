@@ -2,6 +2,7 @@ name: HamerReviews
 favicon: null
 layout_spectrum: 0.84901
 typography_spectrum: 0.15141
+title: Hamer Reviews
 cta:
   domain: null
   bucket: null
