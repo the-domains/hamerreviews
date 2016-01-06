@@ -1,13 +1,13 @@
 ---
 inFeed: true
 hasPage: true
-inNav: true
+inNav: false
 inLanguage: null
 starred: true
 keywords: []
 description: 'A review of the Withings Aura, a smart sleep monitor and alarm clock. '
-datePublished: '2016-01-06T16:35:44.651Z'
-dateModified: '2016-01-06T16:32:55.024Z'
+datePublished: '2016-01-06T16:37:57.029Z'
+dateModified: '2016-01-06T16:37:48.702Z'
 title: Withings Aura Review
 author: []
 sourcePath: _posts/2015-12-22-withings-aura-review.md
