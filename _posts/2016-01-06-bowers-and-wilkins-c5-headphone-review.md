@@ -6,8 +6,8 @@ inLanguage: null
 starred: false
 keywords: []
 description: 'Bowers & Wilkins C5 headphones review'
-datePublished: '2016-01-07T13:20:32.026Z'
-dateModified: '2016-01-07T13:20:29.132Z'
+datePublished: '2016-01-07T13:22:29.378Z'
+dateModified: '2016-01-07T13:20:42.093Z'
 title: 'Bowers & Wilkins C5 headphone review'
 author: []
 sourcePath: _posts/2016-01-06-bowers-and-wilkins-c5-headphone-review.md
