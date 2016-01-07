@@ -6,8 +6,8 @@ inLanguage: null
 starred: false
 keywords: []
 description: ''
-datePublished: '2016-01-06T16:44:35.046Z'
-dateModified: '2016-01-06T16:44:21.041Z'
+datePublished: '2016-01-07T13:22:18.614Z'
+dateModified: '2016-01-07T13:19:24.947Z'
 title: Bose QuietComfort 20i review
 author: []
 authors: []
