@@ -1,13 +1,13 @@
 ---
-inFeed: true
+inFeed: false
 hasPage: true
-inNav: false
+inNav: true
 inLanguage: null
 starred: false
 keywords: []
 description: 'Bowers & Wilkins C5 headphones review'
-datePublished: '2016-01-07T13:25:23.917Z'
-dateModified: '2016-01-07T13:25:09.133Z'
+datePublished: '2016-01-07T16:15:19.109Z'
+dateModified: '2016-01-07T16:13:55.705Z'
 title: 'Bowers & Wilkins C5 headphone review'
 author: []
 sourcePath: _posts/2016-01-06-bowers-and-wilkins-c5-headphone-review.md
@@ -19,7 +19,7 @@ publisher:
   url: null
   favicon: null
 url: bowers-and-wilkins-c5-headphone-review/index.html
-_type: Article
+_type: WebPage
 
 ---
 The B&W C5 headphones are the newest addition to the headphone section of the company and what a great addition they are too.
