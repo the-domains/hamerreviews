@@ -1,13 +1,13 @@
 ---
-inFeed: true
+inFeed: false
 hasPage: true
-inNav: false
+inNav: true
 inLanguage: null
 starred: false
 keywords: []
 description: ''
-datePublished: '2016-01-07T13:25:26.712Z'
-dateModified: '2016-01-07T13:25:03.515Z'
+datePublished: '2016-01-07T16:15:11.640Z'
+dateModified: '2016-01-07T16:14:03.983Z'
 title: Bose QuietComfort 20i review
 author: []
 sourcePath: _posts/2016-01-06-bose-quietcomfort-20i-review.md
@@ -19,7 +19,7 @@ publisher:
   url: null
   favicon: null
 url: bose-quietcomfort-20i-review/index.html
-_type: Article
+_type: WebPage
 
 ---
 Bose has created some of the best noise cancelling headphones over the years but these trump them all.
