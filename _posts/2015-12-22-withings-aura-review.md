@@ -1,13 +1,13 @@
 ---
-inFeed: true
+inFeed: false
 hasPage: true
 inNav: false
 inLanguage: null
 starred: false
 keywords: []
 description: 'A review of the Withings Aura, a smart sleep monitor and alarm clock. '
-datePublished: '2016-01-06T16:51:27.477Z'
-dateModified: '2016-01-06T16:51:12.166Z'
+datePublished: '2016-01-07T13:21:32.121Z'
+dateModified: '2016-01-07T13:21:29.381Z'
 title: Withings Aura Review
 author: []
 sourcePath: _posts/2015-12-22-withings-aura-review.md
@@ -19,7 +19,7 @@ publisher:
   url: null
   favicon: null
 url: withings-aura-review/index.html
-_type: Article
+_type: Blurb
 
 ---
 I've long wondered what the fuss is with regards to the trend
