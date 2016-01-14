@@ -1,4 +1,4 @@
-<!DOCTYPE HTML><html class="exporting wf-loading"><head><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/><title>Bowers & Wilkins C5 headphone review - HamerReviews</title><link href="../rss.xml" title="Hamer Reviews feed" rel="alternate" type="application/rss+xml"/><meta name="generator" content="The Grid taylor/0.16.25"><meta name="the-grid-solution" content="da8fbf4b-e43e-4769-b810-f9f29ef36c5d"><style href="./css/scale/mini.css" media="(max-width: 19.9376em)" rel="stylesheet">@media (max-width: 15.625em){html{font-size:3.09375em !important}}
+<!DOCTYPE HTML><html class="exporting wf-loading"><head><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/><title>Bowers & Wilkins C5 headphone review - HamerReviews</title><link href="../rss.xml" title="Hamer Reviews feed" rel="alternate" type="application/rss+xml"/><meta name="generator" content="The Grid taylor/0.17.3"><meta name="the-grid-solution" content="7fbf10be-382d-411a-b3e4-8b43747be25c"><style href="./css/scale/mini.css" media="(max-width: 19.9376em)" rel="stylesheet">@media (max-width: 15.625em){html{font-size:3.09375em !important}}
 @media (min-width: 15.6875em)and (max-width: 15.75em){	html{font-size:3.28125em !important}}
 @media (min-width: 15.8125em)and (max-width: 16.25em){	html{font-size:3.375em !important}}
 @media (min-width: 16.3125em)and (max-width: 16.6875em){html{font-size:3.46875em !important}}
@@ -202,6 +202,14 @@ body {
 }
 .stack {
   z-index: 1;
+  transition: transform 0.3s ease-out;
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+}
+.group,
+.aside,
+.decoration {
+  transition: transform 0.3s ease-out;
+  -webkit-transition: -webkit-transform 0.3s ease-out;
 }
 picture {
   display: inline-block;
@@ -250,6 +258,9 @@ a:active {
   transition: color 0.1s ease-in, background-color 0.1s ease-out;
   -webkit-transition: color 0.1s ease-in, background-color 0.1s ease-out;
 }
+a.aside {
+  display: inline-block;
+}
 html.exporting a {
   transition: none;
 }
@@ -259,11 +270,21 @@ html.exporting a {
 .media > a {
   display: inline-block;
 }
+.media iframe {
+  transition: 0.3s opacity ease-in;
+  -webkit-transition: 0.3s opacity ease-in;
+}
 h1 a,
 h2 a,
 h3 a {
   font-weight: inherit;
   letter-spacing: inherit;
+}
+a {
+  -webkit-box-decoration-break: clone;
+  -ms-box-decoration-break: clone;
+  -moz-box-decoration-break: clone;
+  box-decoration-break: clone;
 }
 .text-decoration {
   -webkit-box-decoration-break: clone;
@@ -277,36 +298,50 @@ h3 a {
   margin-left: 1.5em;
 }
 .decoration {
-  position: relative;
   pointer-events: none;
+}
+.svg {
+  position: relative;
   background-color: currentColor;
 }
-.decoration > svg {
+.svg > svg {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 }
-.decoration.connector > svg {
+.svg.connector > svg {
   width: 109%;
   height: 109%;
   margin-left: -2%;
 }
-.decoration path,
-.decoration ellipse,
-.decoration rect,
-.decoration polygon,
-.decoration circle {
+.svg path,
+.svg ellipse,
+.svg rect,
+.svg polygon,
+.svg circle {
   fill: currentColor;
 }
-.decoration mpath,
-.decoration line,
-.decoration polyline {
+.svg mpath,
+.svg line,
+.svg polyline {
   stroke: currentColor;
 }
-.svg.decoration {
+.svg {
   background-color: transparent;
+}
+.revealed .play.svg:after {
+  display: block;
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: -20px;
+  background-color: currentColor;
+  content: "";
 }
 .colors-style-aside-border .publisher,
 .colors-style-aside-border .author {
@@ -1338,7 +1373,7 @@ display: none;
             </g>
         </g>
     </g>
-</svg></div></article><article subject="chapter" class="col-1 export-linebreaks uninverted vertical not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_large chapter stack textual i first_chapter w_decoration w_headline w_title w_paragraph w_text w_separator w_short_headline w_short_title w_long_paragraph w_long_text stack textual" itemid="8aff8646-e1ac-41a8-b6b8-3c77046498ac" itemtype="text" diff_index="2" index="textual" kind="stack" score="5.625" missed="0.375" tag="article" id="u-8aff8646-e1ac-41a8-b6b8-3c77046498ac"><div kind="group" index="textual" class="group textual group textual" id="u-8aff8646-e1ac-41a8-b6b8-3c77046498ac-g-textual"><h1 kind="title" index="headline" class="short short_headline short_title title headline vfld-leader title headline" specificity="0.25" itemprop="title" id="u-8aff8646-e1ac-41a8-b6b8-3c77046498ac-g-textual-t-headline"><span class="text-decoration" id="u-8aff8646-e1ac-41a8-b6b8-3c77046498ac-g-textual-t-headline-span">Bowers & Wilkins C5 <wbr class="w480 w960"></wbr>headphone review</span></h1><div kind="decoration" index="separator" class="decoration separator decoration separator svg" id="u-8aff8646-e1ac-41a8-b6b8-3c77046498ac-g-textual-d-separator-desktop"><?xml version="1.0" encoding="utf-8"?>
+</svg></div></article><article subject="chapter" class="col-1 export-linebreaks uninverted vertical not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_large chapter stack textual i first_chapter w_decoration w_headline w_title w_paragraph w_text w_separator w_short_headline w_short_title w_long_paragraph w_long_text stack textual" itemid="8aff8646-e1ac-41a8-b6b8-3c77046498ac" itemtype="text" diff_index="2" index="textual" kind="stack" score="1.625" missed="0.375" tag="article" id="u-8aff8646-e1ac-41a8-b6b8-3c77046498ac"><div kind="group" index="textual" class="group textual group textual" id="u-8aff8646-e1ac-41a8-b6b8-3c77046498ac-g-textual"><h1 kind="title" index="headline" class="short short_headline short_title title headline vfld-leader title headline" specificity="0.25" itemprop="title" id="u-8aff8646-e1ac-41a8-b6b8-3c77046498ac-g-textual-t-headline"><span class="text-decoration" id="u-8aff8646-e1ac-41a8-b6b8-3c77046498ac-g-textual-t-headline-span">Bowers & Wilkins C5 <wbr class="w480 w960"></wbr>headphone review</span></h1><div kind="decoration" index="separator" class="decoration separator decoration separator svg" id="u-8aff8646-e1ac-41a8-b6b8-3c77046498ac-g-textual-d-separator-desktop"><?xml version="1.0" encoding="utf-8"?>
 
 <svg preserveAspectRatio="none" id="u-8aff8646-e1ac-41a8-b6b8-3c77046498ac-g-textual-d-separator-desktop-svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 72 72" enable-background="new 0 0 72 72" xml:space="preserve">
@@ -1356,7 +1391,7 @@ display: none;
 	 viewBox="0 0 72 72" enable-background="new 0 0 72 72" xml:space="preserve">
 <rect fill="#808285" width="72" height="72"/>
 </svg>
-</div></div></article><article subject="chapter" class="col-1 export-linebreaks uninverted vertical not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack textual i w_decoration w_paragraph w_text w_long_paragraph w_long_text stack textual" itemid="f5a00f82-b2d6-44d2-8773-7ba735f197aa" itemtype="text" diff_index="2" index="textual" kind="stack" score="2.5" missed="0.5" tag="article" id="u-f5a00f82-b2d6-44d2-8773-7ba735f197aa"><div kind="group" index="textual" class="group textual group textual" id="u-f5a00f82-b2d6-44d2-8773-7ba735f197aa-g-textual"><div kind="text" index="paragraph" class="text-decoration long long_paragraph long_text text paragraph vfld-leader vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-f5a00f82-b2d6-44d2-8773-7ba735f197aa-g-textual-t-paragraph"><p><span class="first-letter">C</span>ome late 2011 and once again I was without my 420's. This <wbr class="w480 w960"></wbr>time I had been an idiot and <wbr class="w481 w961 w1799"></wbr>had dropped them outside my <wbr class="w480 w960 w1800"></wbr>car door whilst getting out and returned to find the <wbr class="w480 w481 w960 w961 w1799"></wbr>headphones smashed to smithereens - not a pretty sight I <wbr class="w480 w960"></wbr>assure you!</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>W</span>hilst at the airport just a week ago I noticed that I had <wbr class="w480 w960"></wbr>become fed up with Apples <wbr class="w481 w961 w1799"></wbr>signature, crap, headphones and <wbr class="w480 w960 w1800"></wbr>needed something else.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>S</span>urprisingly my choices were varied, even at the airport. I <wbr class="w480 w960"></wbr>narrowed down my choices to <a data-grid-id="fc6147e5-0234-4c0a-aecd-1d2fb2d510d8" href="https://www.amazon.co.uk/dp/B003S3RD74/ref=cm_cr_asin_lnk"><wbr class="w481 w961 w1799"></wbr>Shure SE425-V-EFS Sound <wbr class="w480 w960 w1800"></wbr>Isolating Earphones</a><a data-grid-id="386cd590-a6ba-4873-8981-be07e52f20b7" href="https://www.amazon.co.uk/dp/B00368CICQ/ref=cm_cr_asin_lnk">Klipsch Image X10i Noise Isolating In-<wbr class="w480 w960"></wbr>Ear <wbr class="w481 w961 w1799"></wbr>Headset with 3-Button Mic for iPhone / iPod - Black</a>and <wbr class="w480 w960 w1800"></wbr>the Bowers and Wilkins C5's after <wbr class="w481 w961 w1799"></wbr>discounting the Bose QC15 <wbr class="w480 w960"></wbr>on the basis of not wanting noise cancelling technology <wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>destroying the music I listen to.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>I</span>n the end I settled on the Bowers and Wilkins C5's. My <wbr class="w480 w960"></wbr>reasons were the innovative design, <wbr class="w481 w961 w1799"></wbr>and reputation of the <wbr class="w480 w960"></wbr>firm for <wbr class="w1800"></wbr>creating great musical listening devices.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>I</span> was not disappointed.</p></div></div></article><article subject="chapter" class="col-1 export-linebreaks uninverted vertical not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack textual i w_decoration w_paragraph w_text w_long_paragraph w_long_text stack textual" itemid="323236bb-5dad-401b-89f7-52e4affcf785" itemtype="text" diff_index="2" index="textual" kind="stack" score="2.5" missed="0.5" tag="article" id="u-323236bb-5dad-401b-89f7-52e4affcf785"><div kind="group" index="textual" class="group textual group textual" id="u-323236bb-5dad-401b-89f7-52e4affcf785-g-textual"><div kind="text" index="paragraph" class="text-decoration long long_paragraph long_text text paragraph vfld-leader vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-323236bb-5dad-401b-89f7-52e4affcf785-g-textual-t-paragraph"><p><span class="first-letter">T</span>he design is something I have never seen before, the <wbr class="w480 w960"></wbr>headphone, after being pushed into <wbr class="w481 w961 w1799"></wbr>the ear uses the cable <wbr class="w480 w960"></wbr>which is <wbr class="w1800"></wbr>slightly rigid - although still adjustable - to slip inside <wbr class="w480 w960"></wbr>a ridge <wbr class="w481 w961 w1799"></wbr>of your ear to hold itself in place.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>I</span>t is a much cleaner solution to the one employed by Shure <wbr class="w480 w960"></wbr>and is leaps and bounds ahead <wbr class="w481 w961 w1799"></wbr>of Klipsch.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>A</span>lso the study metal construction is reassuring and the cable <wbr class="w480 w960"></wbr>does not feel like it will fall <wbr class="w481 w961 w1799"></wbr>apart. I must say I was most <wbr class="w480 w960 w1800"></wbr>disappointed to find the cable non replaceable.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>O</span>ther than this the design is a welcome refresh to the same <wbr class="w480 w960"></wbr>old.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>A</span>lso the inline controls - which only work with iDevices are <wbr class="w480 w960"></wbr>very useful and work well.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>T</span>he headphones feel well built, they should last at least a <wbr class="w480 w960"></wbr>year or two.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>N</span>ow here is of course what you have been waiting for.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>S</span>ummed up in one sentence; The Bowers and Wilkins C5's <wbr class="w480 w960"></wbr>deliver astonishingly good bass <wbr class="w481 w961 w1799"></wbr>which can be too powerful <wbr class="w480 w960 w1800"></wbr>whilst still providing the listener with a warm - although <wbr class="w480 w481 w960 w961 w1799"></wbr>sometimes harshly bright mid and high range.</p></div></div></article><article subject="chapter" class="col-1 export-linebreaks uninverted vertical not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack textual i w_decoration w_paragraph w_text w_long_paragraph w_long_text stack textual" itemid="89eae0f5-8da6-4c53-93ed-b9c5c54fefa5" itemtype="text" diff_index="2" index="textual" kind="stack" score="2.5" missed="0.5" tag="article" id="u-89eae0f5-8da6-4c53-93ed-b9c5c54fefa5"><div kind="group" index="textual" class="group textual group textual" id="u-89eae0f5-8da6-4c53-93ed-b9c5c54fefa5-g-textual"><div kind="text" index="paragraph" class="text-decoration long long_paragraph long_text text paragraph vfld-leader vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-89eae0f5-8da6-4c53-93ed-b9c5c54fefa5-g-textual-t-paragraph"><p><span class="first-letter">A</span>t high volumes on tracks with lots of bass the mid range <wbr class="w480 w960"></wbr>can suffer although it handled <wbr class="w481 w961 w1799"></wbr>Thom Yorke's 'Skip divided' <wbr class="w480 w960"></wbr>with <wbr class="w1800"></wbr>relative ease up until 3/4 volume. Villa Nah's 'Running <wbr class="w480 w960"></wbr>on' <wbr class="w481 w961 w1799"></wbr>did however suffer and i was forced to turn the bass <wbr class="w480 w960"></wbr>down to <wbr class="w1800"></wbr>FLAT on my iPod.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>I</span>f not presented with heavy or overbearing bass such as in <wbr class="w480 w960"></wbr>Interpol's 'Leif Erikson' the <wbr class="w481 w961 w1799"></wbr>headphones truly shine.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>O</span>f course chances are you want to shut out the outside world <wbr class="w480 w960"></wbr>whilst commuting and the <wbr class="w481 w961 w1799"></wbr>good news is that these <wbr class="w480 w960 w1800"></wbr>headphones do a great job of shutting out the outside world.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>P</span>roblem is that due to the 'micro porous' outside - which <wbr class="w480 w960"></wbr>helps provide the great bass' most <wbr class="w481 w961 w1799"></wbr>of your fellow commuters <wbr class="w480 w960 w1800"></wbr>will probably be able to hear the music as well if you are <wbr class="w480 w960"></wbr>listening <wbr class="w481 w961 w1799"></wbr>above 2/3 volume.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>I</span>t can be a little tricky to get a proper fit but you are rewarded <wbr class="w480 w960"></wbr>with deep bass and lovely <wbr class="w481 w961 w1799"></wbr>highs if you get it right!</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>T</span>he headphones come with a somewhat 'suave' suede case.</p></div></div></article><article subject="chapter" class="col-1 export-linebreaks uninverted vertical not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack textual i last_chapter w_decoration w_paragraph w_text w_long_paragraph w_long_text stack textual" itemid="ee25c724-111f-4359-aa45-f59ca6bd62f3" itemtype="text" diff_index="2" index="textual" kind="stack" score="2.5" missed="0.5" tag="article" id="u-ee25c724-111f-4359-aa45-f59ca6bd62f3"><div kind="group" index="textual" class="group textual group textual" id="u-ee25c724-111f-4359-aa45-f59ca6bd62f3-g-textual"><div kind="text" index="paragraph" class="text-decoration long long_paragraph long_text text paragraph vfld-leader vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-ee25c724-111f-4359-aa45-f59ca6bd62f3-g-textual-t-paragraph"><p><span class="first-letter">P</span>ersonally I'd avoid it. My headphones didn't fit in them very <wbr class="w480 w960"></wbr>well so I am continuing to use <wbr class="w481 w961 w1799"></wbr>my Shure case as that is large <wbr class="w480 w960 w1800"></wbr>enough to accommodate both my headphones and iPod <wbr class="w480 w481 w960 w961 w1799"></wbr>Nano.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>T</span>he 4 differently sized tips should accommodate most ear <wbr class="w480 w960"></wbr>sizes.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>I</span> would say that the B&W C5's do represent good value for <wbr class="w480 w960"></wbr>money.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>A</span>lthough not at the cheap end of the market they are <wbr class="w480 w960"></wbr>definitely not at the top of the IEM <wbr class="w481 w961 w1799"></wbr>market either. Innovative <wbr class="w480 w960"></wbr>design <wbr class="w1800"></wbr>and fantastic sound quality for the price make these a <wbr class="w480 w960 w1799"></wbr>great <wbr class="w481 w961"></wbr>buy.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>T</span>he only downsides are the sound leakage and non <wbr class="w480 w960"></wbr>replaceable cable.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>T</span>o me these outperform the Shure SE-425's on sound quality <wbr class="w480 w960"></wbr>and build in most respects. <wbr class="w481 w961 w1799"></wbr>Perhaps the se-420's are cleaner <wbr class="w480 w960 w1800"></wbr>when it comes to merging bass and mid range but at that <wbr class="w480 w481 w960 w961 w1799"></wbr>stage it is purely a matter of personal preference.</p></div></div></article><article subject="panel" class="col-1 export-linebreaks uninverted vertical not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_center collapsed full line_padding_aside_inside text_width_full group_h_align_none text_align_center flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_small panel stack heading i first_panel last_panel w_decoration w_headline w_title w_short_headline w_short_title stack heading" itemid="u-page-alternate" itemtype="alternate" diff_index="2" index="heading" kind="stack" score="1.875" missed="0.125" tag="article" id="u-ca183adf-0091-48cc-b9de-ab8c7eb5d999-alternate"><div kind="group" index="heading" class="group heading group heading" id="u-ca183adf-0091-48cc-b9de-ab8c7eb5d999-alternate-g-heading"><h1 kind="title" index="headline" class="short short_headline short_title title headline vfld-leader vfld-trailer title headline" specificity="0.25" itemprop="title" id="u-ca183adf-0091-48cc-b9de-ab8c7eb5d999-alternate-g-heading-t-headline"><a class="text-decoration" href="../rss.xml" id="u-ca183adf-0091-48cc-b9de-ab8c7eb5d999-alternate-g-heading-t-headline-a">Hamer Reviews feed</a></h1></div></article><section kind="layout" style="position: relative" sequence="one" role="header" diff_index="0" index="one" class="layout one i first_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title w_list w_data w_short_list w_short_data layout one" id="u-ca183adf-0091-48cc-b9de-ab8c7eb5d999-desktop-l-one"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout header layout one" id="u-ca183adf-0091-48cc-b9de-ab8c7eb5d999-desktop-l-one-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="article" diff_index="0" index="one" class="layout one i w_headline w_title w_paragraph w_text w_separator w_decoration w_leader w_short_headline w_short_title w_long_paragraph w_long_text layout one" id="u-ca183adf-0091-48cc-b9de-ab8c7eb5d999-desktop-l-one-2"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_texts colors-use-same-as-previous layout one i first_layout last_layout article layout one" id="u-ca183adf-0091-48cc-b9de-ab8c7eb5d999-desktop-l-one-2-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="footer" diff_index="0" index="one" class="layout one i last_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title layout one" id="u-ca183adf-0091-48cc-b9de-ab8c7eb5d999-desktop-l-one-3"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout footer layout one" id="u-ca183adf-0091-48cc-b9de-ab8c7eb5d999-desktop-l-one-3-l-one"></div><style id="u-ca183adf-0091-48cc-b9de-ab8c7eb5d999-color">body{background-color: rgba(250, 249, 248, 1)}</style></section><section kind="layout" style="position: relative" sequence="one" role="header" diff_index="0" index="one" class="layout one i first_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title w_list w_data w_short_list w_short_data layout one" id="u-ca183adf-0091-48cc-b9de-ab8c7eb5d999-cinema-l-one"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout header layout one" id="u-ca183adf-0091-48cc-b9de-ab8c7eb5d999-cinema-l-one-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="article" diff_index="0" index="one" class="layout one i w_headline w_title w_paragraph w_text w_separator w_decoration w_leader w_short_headline w_short_title w_long_paragraph w_long_text layout one" id="u-ca183adf-0091-48cc-b9de-ab8c7eb5d999-cinema-l-one-2"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_texts colors-use-same-as-previous layout one i first_layout last_layout article layout one" id="u-ca183adf-0091-48cc-b9de-ab8c7eb5d999-cinema-l-one-2-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="footer" diff_index="0" index="one" class="layout one i last_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title layout one" id="u-ca183adf-0091-48cc-b9de-ab8c7eb5d999-cinema-l-one-3"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout footer layout one" id="u-ca183adf-0091-48cc-b9de-ab8c7eb5d999-cinema-l-one-3-l-one"></div><style id="u-ca183adf-0091-48cc-b9de-ab8c7eb5d999-color">body{background-color: rgba(250, 249, 248, 1)}</style></section></div><script href="./client.js">(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+</div></div></article><article subject="chapter" class="col-1 export-linebreaks uninverted vertical not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack textual i w_decoration w_paragraph w_text w_long_paragraph w_long_text stack textual" itemid="f5a00f82-b2d6-44d2-8773-7ba735f197aa" itemtype="text" diff_index="2" index="textual" kind="stack" score="0.5" missed="0.5" tag="article" id="u-f5a00f82-b2d6-44d2-8773-7ba735f197aa"><div kind="group" index="textual" class="group textual group textual" id="u-f5a00f82-b2d6-44d2-8773-7ba735f197aa-g-textual"><div kind="text" index="paragraph" class="text-decoration long long_paragraph long_text text paragraph vfld-leader vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-f5a00f82-b2d6-44d2-8773-7ba735f197aa-g-textual-t-paragraph"><p><span class="first-letter">C</span>ome late 2011 and once again I was without my 420's. This <wbr class="w480 w960"></wbr>time I had been an idiot and <wbr class="w481 w961 w1799"></wbr>had dropped them outside my <wbr class="w480 w960 w1800"></wbr>car door whilst getting out and returned to find the <wbr class="w480 w481 w960 w961 w1799"></wbr>headphones smashed to smithereens - not a pretty sight I <wbr class="w480 w960"></wbr>assure you!</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>W</span>hilst at the airport just a week ago I noticed that I had <wbr class="w480 w960"></wbr>become fed up with Apples <wbr class="w481 w961 w1799"></wbr>signature, crap, headphones and <wbr class="w480 w960 w1800"></wbr>needed something else.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>S</span>urprisingly my choices were varied, even at the airport. I <wbr class="w480 w960"></wbr>narrowed down my choices to <a data-grid-id="fc6147e5-0234-4c0a-aecd-1d2fb2d510d8" href="https://www.amazon.co.uk/dp/B003S3RD74/ref=cm_cr_asin_lnk"><wbr class="w481 w961 w1799"></wbr>Shure SE425-V-EFS Sound <wbr class="w480 w960 w1800"></wbr>Isolating Earphones</a><a data-grid-id="386cd590-a6ba-4873-8981-be07e52f20b7" href="https://www.amazon.co.uk/dp/B00368CICQ/ref=cm_cr_asin_lnk">Klipsch Image X10i Noise Isolating In-<wbr class="w480 w960"></wbr>Ear <wbr class="w481 w961 w1799"></wbr>Headset with 3-Button Mic for iPhone / iPod - Black</a>and <wbr class="w480 w960 w1800"></wbr>the Bowers and Wilkins C5's after <wbr class="w481 w961 w1799"></wbr>discounting the Bose QC15 <wbr class="w480 w960"></wbr>on the basis of not wanting noise cancelling technology <wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>destroying the music I listen to.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>I</span>n the end I settled on the Bowers and Wilkins C5's. My <wbr class="w480 w960"></wbr>reasons were the innovative design, <wbr class="w481 w961 w1799"></wbr>and reputation of the <wbr class="w480 w960"></wbr>firm for <wbr class="w1800"></wbr>creating great musical listening devices.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>I</span> was not disappointed.</p></div></div></article><article subject="chapter" class="col-1 export-linebreaks uninverted vertical not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack textual i w_decoration w_paragraph w_text w_long_paragraph w_long_text stack textual" itemid="323236bb-5dad-401b-89f7-52e4affcf785" itemtype="text" diff_index="2" index="textual" kind="stack" score="0.5" missed="0.5" tag="article" id="u-323236bb-5dad-401b-89f7-52e4affcf785"><div kind="group" index="textual" class="group textual group textual" id="u-323236bb-5dad-401b-89f7-52e4affcf785-g-textual"><div kind="text" index="paragraph" class="text-decoration long long_paragraph long_text text paragraph vfld-leader vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-323236bb-5dad-401b-89f7-52e4affcf785-g-textual-t-paragraph"><p><span class="first-letter">T</span>he design is something I have never seen before, the <wbr class="w480 w960"></wbr>headphone, after being pushed into <wbr class="w481 w961 w1799"></wbr>the ear uses the cable <wbr class="w480 w960"></wbr>which is <wbr class="w1800"></wbr>slightly rigid - although still adjustable - to slip inside <wbr class="w480 w960"></wbr>a ridge <wbr class="w481 w961 w1799"></wbr>of your ear to hold itself in place.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>I</span>t is a much cleaner solution to the one employed by Shure <wbr class="w480 w960"></wbr>and is leaps and bounds ahead <wbr class="w481 w961 w1799"></wbr>of Klipsch.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>A</span>lso the study metal construction is reassuring and the cable <wbr class="w480 w960"></wbr>does not feel like it will fall <wbr class="w481 w961 w1799"></wbr>apart. I must say I was most <wbr class="w480 w960 w1800"></wbr>disappointed to find the cable non replaceable.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>O</span>ther than this the design is a welcome refresh to the same <wbr class="w480 w960"></wbr>old.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>A</span>lso the inline controls - which only work with iDevices are <wbr class="w480 w960"></wbr>very useful and work well.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>T</span>he headphones feel well built, they should last at least a <wbr class="w480 w960"></wbr>year or two.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>N</span>ow here is of course what you have been waiting for.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>S</span>ummed up in one sentence; The Bowers and Wilkins C5's <wbr class="w480 w960"></wbr>deliver astonishingly good bass <wbr class="w481 w961 w1799"></wbr>which can be too powerful <wbr class="w480 w960 w1800"></wbr>whilst still providing the listener with a warm - although <wbr class="w480 w481 w960 w961 w1799"></wbr>sometimes harshly bright mid and high range.</p></div></div></article><article subject="chapter" class="col-1 export-linebreaks uninverted vertical not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack textual i w_decoration w_paragraph w_text w_long_paragraph w_long_text stack textual" itemid="89eae0f5-8da6-4c53-93ed-b9c5c54fefa5" itemtype="text" diff_index="2" index="textual" kind="stack" score="0.5" missed="0.5" tag="article" id="u-89eae0f5-8da6-4c53-93ed-b9c5c54fefa5"><div kind="group" index="textual" class="group textual group textual" id="u-89eae0f5-8da6-4c53-93ed-b9c5c54fefa5-g-textual"><div kind="text" index="paragraph" class="text-decoration long long_paragraph long_text text paragraph vfld-leader vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-89eae0f5-8da6-4c53-93ed-b9c5c54fefa5-g-textual-t-paragraph"><p><span class="first-letter">A</span>t high volumes on tracks with lots of bass the mid range <wbr class="w480 w960"></wbr>can suffer although it handled <wbr class="w481 w961 w1799"></wbr>Thom Yorke's 'Skip divided' <wbr class="w480 w960"></wbr>with <wbr class="w1800"></wbr>relative ease up until 3/4 volume. Villa Nah's 'Running <wbr class="w480 w960"></wbr>on' <wbr class="w481 w961 w1799"></wbr>did however suffer and i was forced to turn the bass <wbr class="w480 w960"></wbr>down to <wbr class="w1800"></wbr>FLAT on my iPod.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>I</span>f not presented with heavy or overbearing bass such as in <wbr class="w480 w960"></wbr>Interpol's 'Leif Erikson' the <wbr class="w481 w961 w1799"></wbr>headphones truly shine.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>O</span>f course chances are you want to shut out the outside world <wbr class="w480 w960"></wbr>whilst commuting and the <wbr class="w481 w961 w1799"></wbr>good news is that these <wbr class="w480 w960 w1800"></wbr>headphones do a great job of shutting out the outside world.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>P</span>roblem is that due to the 'micro porous' outside - which <wbr class="w480 w960"></wbr>helps provide the great bass' most <wbr class="w481 w961 w1799"></wbr>of your fellow commuters <wbr class="w480 w960 w1800"></wbr>will probably be able to hear the music as well if you are <wbr class="w480 w960"></wbr>listening <wbr class="w481 w961 w1799"></wbr>above 2/3 volume.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>I</span>t can be a little tricky to get a proper fit but you are rewarded <wbr class="w480 w960"></wbr>with deep bass and lovely <wbr class="w481 w961 w1799"></wbr>highs if you get it right!</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>T</span>he headphones come with a somewhat 'suave' suede case.</p></div></div></article><article subject="chapter" class="col-1 export-linebreaks uninverted vertical not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack textual i last_chapter w_decoration w_paragraph w_text w_long_paragraph w_long_text stack textual" itemid="ee25c724-111f-4359-aa45-f59ca6bd62f3" itemtype="text" diff_index="2" index="textual" kind="stack" score="0.5" missed="0.5" tag="article" id="u-ee25c724-111f-4359-aa45-f59ca6bd62f3"><div kind="group" index="textual" class="group textual group textual" id="u-ee25c724-111f-4359-aa45-f59ca6bd62f3-g-textual"><div kind="text" index="paragraph" class="text-decoration long long_paragraph long_text text paragraph vfld-leader vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-ee25c724-111f-4359-aa45-f59ca6bd62f3-g-textual-t-paragraph"><p><span class="first-letter">P</span>ersonally I'd avoid it. My headphones didn't fit in them very <wbr class="w480 w960"></wbr>well so I am continuing to use <wbr class="w481 w961 w1799"></wbr>my Shure case as that is large <wbr class="w480 w960 w1800"></wbr>enough to accommodate both my headphones and iPod <wbr class="w480 w481 w960 w961 w1799"></wbr>Nano.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>T</span>he 4 differently sized tips should accommodate most ear <wbr class="w480 w960"></wbr>sizes.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>I</span> would say that the B&W C5's do represent good value for <wbr class="w480 w960"></wbr>money.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>A</span>lthough not at the cheap end of the market they are <wbr class="w480 w960"></wbr>definitely not at the top of the IEM <wbr class="w481 w961 w1799"></wbr>market either. Innovative <wbr class="w480 w960"></wbr>design <wbr class="w1800"></wbr>and fantastic sound quality for the price make these a <wbr class="w480 w960 w1799"></wbr>great <wbr class="w481 w961"></wbr>buy.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>T</span>he only downsides are the sound leakage and non <wbr class="w480 w960"></wbr>replaceable cable.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>T</span>o me these outperform the Shure SE-425's on sound quality <wbr class="w480 w960"></wbr>and build in most respects. <wbr class="w481 w961 w1799"></wbr>Perhaps the se-420's are cleaner <wbr class="w480 w960 w1800"></wbr>when it comes to merging bass and mid range but at that <wbr class="w480 w481 w960 w961 w1799"></wbr>stage it is purely a matter of personal preference.</p></div></div></article><article subject="panel" class="col-1 export-linebreaks uninverted vertical not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_center collapsed full line_padding_aside_inside text_width_full group_h_align_none text_align_center flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_small panel stack heading i first_panel last_panel w_decoration w_headline w_title w_short_headline w_short_title stack heading" itemid="u-page-alternate" itemtype="alternate" diff_index="2" index="heading" kind="stack" score="1.875" missed="0.125" tag="article" id="u-ca183adf-0091-48cc-b9de-ab8c7eb5d999-alternate"><div kind="group" index="heading" class="group heading group heading" id="u-ca183adf-0091-48cc-b9de-ab8c7eb5d999-alternate-g-heading"><h1 kind="title" index="headline" class="short short_headline short_title title headline vfld-leader vfld-trailer title headline" specificity="0.25" itemprop="title" id="u-ca183adf-0091-48cc-b9de-ab8c7eb5d999-alternate-g-heading-t-headline"><a class="text-decoration" href="../rss.xml" id="u-ca183adf-0091-48cc-b9de-ab8c7eb5d999-alternate-g-heading-t-headline-a">Hamer Reviews feed</a></h1></div></article><section kind="layout" style="position: relative" sequence="one" role="header" diff_index="0" index="one" class="layout one i first_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title w_list w_data w_short_list w_short_data layout one" id="u-ca183adf-0091-48cc-b9de-ab8c7eb5d999-desktop-l-one"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout header layout one" id="u-ca183adf-0091-48cc-b9de-ab8c7eb5d999-desktop-l-one-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="article" diff_index="0" index="one" class="layout one i w_headline w_title w_paragraph w_text w_separator w_decoration w_leader w_short_headline w_short_title w_long_paragraph w_long_text layout one" id="u-ca183adf-0091-48cc-b9de-ab8c7eb5d999-desktop-l-one-2"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_texts colors-use-same-as-previous layout one i first_layout last_layout article layout one" id="u-ca183adf-0091-48cc-b9de-ab8c7eb5d999-desktop-l-one-2-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="footer" diff_index="0" index="one" class="layout one i last_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title layout one" id="u-ca183adf-0091-48cc-b9de-ab8c7eb5d999-desktop-l-one-3"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout footer layout one" id="u-ca183adf-0091-48cc-b9de-ab8c7eb5d999-desktop-l-one-3-l-one"></div><style id="u-ca183adf-0091-48cc-b9de-ab8c7eb5d999-color">body{background-color: rgba(250, 249, 248, 1)}</style></section><section kind="layout" style="position: relative" sequence="one" role="header" diff_index="0" index="one" class="layout one i first_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title w_list w_data w_short_list w_short_data layout one" id="u-ca183adf-0091-48cc-b9de-ab8c7eb5d999-cinema-l-one"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout header layout one" id="u-ca183adf-0091-48cc-b9de-ab8c7eb5d999-cinema-l-one-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="article" diff_index="0" index="one" class="layout one i w_headline w_title w_paragraph w_text w_separator w_decoration w_leader w_short_headline w_short_title w_long_paragraph w_long_text layout one" id="u-ca183adf-0091-48cc-b9de-ab8c7eb5d999-cinema-l-one-2"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_texts colors-use-same-as-previous layout one i first_layout last_layout article layout one" id="u-ca183adf-0091-48cc-b9de-ab8c7eb5d999-cinema-l-one-2-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="footer" diff_index="0" index="one" class="layout one i last_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title layout one" id="u-ca183adf-0091-48cc-b9de-ab8c7eb5d999-cinema-l-one-3"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout footer layout one" id="u-ca183adf-0091-48cc-b9de-ab8c7eb5d999-cinema-l-one-3-l-one"></div><style id="u-ca183adf-0091-48cc-b9de-ab8c7eb5d999-color">body{background-color: rgba(250, 249, 248, 1)}</style></section></div><script href="./client.js">(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 /*! Hammer.JS - v1.1.3 - 2014-05-20
  * http://eightmedia.github.io/hammer.js
  *
@@ -1883,9 +1918,11 @@ global.Hamburger = require('./hamburger');
 
 global.Highlighter = require('./highlighter');
 
+global.Player = require('./player');
+
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"./animator":3,"./hamburger":4,"./highlighter":5,"./paginator":7,"hammerjs/hammer.min.js":1,"picturefill/dist/picturefill.min.js":2}],7:[function(require,module,exports){
+},{"./animator":3,"./hamburger":4,"./highlighter":5,"./paginator":7,"./player":8,"hammerjs/hammer.min.js":1,"picturefill/dist/picturefill.min.js":2}],7:[function(require,module,exports){
 var appendPage, mainpage, page, ref, ref1, urls;
 
 page = require('./reflow');
@@ -1986,7 +2023,192 @@ module.exports = function() {
 };
 
 
-},{"./reflow":8}],8:[function(require,module,exports){
+},{"./reflow":9}],8:[function(require,module,exports){
+var Player, Youtube, iframe, revealed, rgb2hex;
+
+iframe = null;
+
+Youtube = null;
+
+Player = function(id, src, width, height, color, bg) {
+  if (src.indexOf('youtube') > -1) {
+    src += '&color=white&theme=light&modestbranding=1';
+  }
+  src = src.replace('COLOR', color).replace('BG', bg);
+  if (location.protocol !== 'https:') {
+    src = src.replace('https:', 'http:');
+  }
+  iframe = document.createElement('iframe');
+  iframe.id = id;
+  iframe.setAttribute('allowfullscreen', '');
+  iframe.src = src;
+  iframe.width = width;
+  iframe.height = height;
+  iframe.style.width = '100%';
+  iframe.style.height = '100%';
+  iframe.style.left = 0;
+  iframe.style.right = 0;
+  iframe.style.position = 'absolute';
+  iframe.style.opacity = 0.2;
+  iframe.onload = function() {
+    return iframe.style.opacity = 1;
+  };
+  return iframe;
+};
+
+revealed = null;
+
+Player.reveal = function(iframe) {
+  var diff, i, left, len, parent, play, ref, ref1, sibling, target, top, translateX, translateY;
+  while (target = (target || iframe).parentNode) {
+    if ((ref = target.classList) != null ? ref.contains('media') : void 0) {
+      if (target.parentNode.classList.contains('group')) {
+        parent = target.parentNode;
+      } else {
+        parent = target;
+      }
+      revealed = iframe;
+      play = parent.getElementsByClassName('play')[0];
+      left = target.offsetWidth - play.offsetLeft - play.offsetWidth;
+      top = -play.offsetTop;
+      play.style.webkitTransformOrigin = 'top right';
+      play.style.webkitTransform = 'translateX(' + left + 'px) translateY(' + top + 'px) scale(0.5)';
+      target.classList.add('revealed');
+      ref1 = parent.parentNode.childNodes;
+      for (i = 0, len = ref1.length; i < len; i++) {
+        sibling = ref1[i];
+        if (sibling.nodeType === 1 && sibling !== parent) {
+          translateX = translateY = null;
+          if ((diff = sibling.offsetLeft + sibling.offsetWidth - parent.offsetLeft) > 2 && parent.offsetLeft >= sibling.offsetLeft) {
+            translateX = -diff;
+          }
+          if ((diff = target.offsetLeft + target.offsetWidth - sibling.offsetLeft) > 2 && parent.offsetLeft <= sibling.offsetLeft) {
+            if (!translateX || Math.abs(diff) < Math.abs(translateX)) {
+              translateX = diff;
+            }
+          }
+          if ((diff = sibling.offsetTop + sibling.offsetHeight - parent.offsetTop) > 2 && parent.offsetTop >= sibling.offsetTop) {
+            translateY = -diff;
+          }
+          if ((diff = target.offsetTop + target.offsetHeight - sibling.offsetTop) > 2 && parent.offsetTop <= sibling.offsetTop) {
+            if (!translateY || Math.abs(diff) < Math.abs(translateY)) {
+              translateY = diff;
+            }
+          }
+          if (Math.abs(translateX) > Math.abs(translateY)) {
+            sibling.style.webkitTransform = 'translateY(' + translateY + 'px)';
+          } else {
+            sibling.style.webkitTransform = 'translateX(' + translateX + 'px)';
+          }
+          console.log(translateX, translateY, sibling);
+        }
+      }
+    }
+  }
+};
+
+Player.hide = function(iframe) {
+  var i, len, parent, play, ref, ref1, sibling;
+  while (parent = (parent || iframe).parentNode) {
+    if ((ref = parent.classList) != null ? ref.contains('revealed') : void 0) {
+      parent.classList.remove('revealed');
+      if (parent.parentNode.classList.contains('group')) {
+        parent = parent.parentNode;
+      }
+      play = parent.getElementsByClassName('play')[0];
+      play.style.webkitTransform = '';
+      ref1 = parent.parentNode.childNodes;
+      for (i = 0, len = ref1.length; i < len; i++) {
+        sibling = ref1[i];
+        sibling.style.webkitTransform = '';
+      }
+    }
+  }
+  return revealed = null;
+};
+
+window.addEventListener('resize', function() {
+  return setTimeout(function() {
+    return requestAnimationFrame(function() {
+      if (revealed) {
+        if (revealed.offsetWidth) {
+          return Player.reveal(revealed);
+        } else {
+          return Player.stop(revealed);
+        }
+      }
+    });
+  }, 10);
+});
+
+Player.stop = function(iframe) {
+  var old;
+  old = iframe;
+  iframe.style.opacity = 0;
+  setTimeout(function() {
+    var ref;
+    return (ref = old.parentNode) != null ? ref.removeChild(old) : void 0;
+  }, 300);
+  Player.hide(iframe);
+  return iframe = null;
+};
+
+document.addEventListener('click', function(e) {
+  var bg, color, header, parent, play, ref, ref1, results, styles, target;
+  target = e.target;
+  results = [];
+  while (target) {
+    if ((ref = target.classList) != null ? ref.contains('media') : void 0) {
+      if (play = target.getElementsByClassName('play')[0]) {
+        if ((iframe != null ? iframe.parentNode : void 0) === target) {
+          Player.stop(iframe);
+        } else {
+          if (iframe) {
+            Player.stop(iframe);
+          }
+          color = bg = null;
+          header = (ref1 = target.parentNode.parentNode.getElementsByClassName('title')[0]) != null ? ref1.firstChild : void 0;
+          parent = header || play;
+          while (parent) {
+            if (parent.nodeType === 1) {
+              styles = window.getComputedStyle(parent);
+              if (styles.color.indexOf('rgba') === -1 || !styles.color.match(/,\s*0\)/)) {
+                if (color == null) {
+                  color = styles.color;
+                }
+              }
+              if (styles['background-color'].indexOf('rgba') === -1 || !styles['background-color'].match(/,\s*0\)/)) {
+                if (bg == null) {
+                  bg = styles['background-color'];
+                }
+              }
+            }
+            parent = parent.parentNode;
+          }
+          iframe = Player(play.id + '-player', play.getAttribute('data-src'), play.getAttribute('data-width'), play.getAttribute('data-height'), rgb2hex(color), rgb2hex(bg));
+          target.appendChild(iframe);
+          Player.reveal(iframe);
+        }
+        e.preventDefault();
+        break;
+      }
+    }
+    results.push(target = target.parentNode);
+  }
+  return results;
+});
+
+rgb2hex = function(rgb) {
+  rgb = rgb.match(/^rgba?[\s+]?\([\s+]?(\d+)[\s+]?,[\s+]?(\d+)[\s+]?,[\s+]?(\d+)[\s+]?/i);
+  if (rgb && rgb.length === 4) {
+    return ("0" + parseInt(rgb[1], 10).toString(16)).slice(-2) + ("0" + parseInt(rgb[2], 10).toString(16)).slice(-2) + ("0" + parseInt(rgb[3], 10).toString(16)).slice(-2);
+  }
+};
+
+window.exports = window.Player = Player;
+
+
+},{}],9:[function(require,module,exports){
 module.exports = {
   reflow: function(container) {
     var counter, heights, hidden, hole, holed, holes, i, id, ids, index, j, k, l, last, layout, layouts, len, len1, len2, len3, m, mutations, name, node, ref, ref1, ref2, stack, stacks;
@@ -2251,7 +2473,7 @@ module.exports = function(callback) {
   } else {
     protocol = '';
   }
-  url = protocol + "//cdn.thegrid.io/gss/gss-document/1.2.4/gss.document.parser.js";
+  url = protocol + "//cdn.thegrid.io/gss/gss-document/1.2.8/gss.document.parser.js";
   if (location.toString().indexOf('//localhost:8080') > -1) {
     return module.exports.load(protocol + "//localhost:8080/node_modules/gss-document/dist/gss.document.parser.js", callback, function() {
       return module.exports.load(url, callback);
